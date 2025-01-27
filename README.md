@@ -5,7 +5,7 @@ A RESTful API built with Express.js, TypeScript, and MongoDB, featuring users, p
 ## Prerequisites
 
 - Docker and Docker Compose
-- Node.js (v18 or higher)
+- Node.js (v22 or higher)
 - npm
 - Git
 
@@ -14,7 +14,7 @@ A RESTful API built with Express.js, TypeScript, and MongoDB, featuring users, p
 1. Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/your-username/node-mongo-ts-example.git
+git clone https://github.com/frbarbre/node-mongo-ts-example.git
 cd node-mongo-ts-example
 npm install
 ```

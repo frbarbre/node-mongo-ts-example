@@ -1,0 +1,19 @@
+meta {
+  name: Create Post
+  type: http
+  seq: 3
+}
+
+post {
+  url: {{app_url}}/posts
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "title": "Test Post",
+    "content": "This is a test post content",
+    "userId": "65b12345c6789a0123456789"  // MongoDB ObjectId format
+  }
+}

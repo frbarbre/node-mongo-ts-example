@@ -1,0 +1,20 @@
+meta {
+  name: Update User
+  type: http
+  seq: 4
+}
+
+put {
+  url: {{app_url}}/users/65b12345c6789a0123456789
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "name": "Updated User",
+    "mail": "updated@example.com",
+    "title": "Senior Developer",
+    "image": "https://example.com/new-image.jpg"
+  }
+} 

@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import { Post } from "../models/User.js";
+import { Post } from "../models/index.js";
 
 export const getPosts = async (req: Request, res: Response) => {
   try {
